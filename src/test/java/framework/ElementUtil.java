@@ -94,7 +94,11 @@ public class ElementUtil {
     public void windowMaximize(){
         getDriver().manage().window().maximize();
     }
-
+    
+    public void doSomething() {
+    	String b;
+    }
+    
     public void moveToElement(By locator){
         Actions actions = new Actions(getDriver());
         actions.moveToElement(webAction(locator)).build().perform();
