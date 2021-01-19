@@ -95,6 +95,11 @@ public class ElementUtil {
         getDriver().manage().window().maximize();
     }
     
+    public void Exit() {
+    	
+    	int x;
+    }
+
     public void doSomething() {
     	String b;
     }
