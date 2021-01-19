@@ -100,6 +100,10 @@ public class ElementUtil {
     	int x;
     }
 
+    public void doSomething() {
+    	String b;
+    }
+    
     public void moveToElement(By locator){
         Actions actions = new Actions(getDriver());
         actions.moveToElement(webAction(locator)).build().perform();
