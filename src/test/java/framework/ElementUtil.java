@@ -94,6 +94,10 @@ public class ElementUtil {
     public void windowMaximize(){
         getDriver().manage().window().maximize();
     }
+    
+    public void quit() {
+    	System.out.println();
+    }
 
     public void moveToElement(By locator){
         Actions actions = new Actions(getDriver());
