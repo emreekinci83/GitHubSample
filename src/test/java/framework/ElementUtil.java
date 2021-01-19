@@ -101,7 +101,7 @@ public class ElementUtil {
     }
 
     public void doSomething() {
-    	String b;
+    	String c;
     }
     
     public void moveToElement(By locator){
